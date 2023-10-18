@@ -1,3 +1,54 @@
+
 body{
-  background-color:#f58664 ;
+  font-family:"Comic Sans MS",  sans-serif;
+  padding: 0;
+  margin: 0;
+
 }
+
+.h1{
+
+}
+.h4{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.wrapper{
+  width: 960px;
+  margin: 0,auto;
+
+}
+.pandatart-banner{
+  background-color:#f58664 ;
+  height: 50vh;
+  padding: 0 20px;
+}
+
+.pandatart-banner h4, .pandatart-banner h4 a {
+  color: white;
+}
+
+.group1{
+
+}
+
+a.cta, button.cta {
+
+a.cta.alt, button.cta.alt{
+
+}
+
+
+
+/*
+<div class="pandatart-banner">
+  <div class="wrapper">
+    <h4>Ruby presents</h4>
+    <h1>The Sweetest <br> Group in The <br> World!</h1>
+    <h3>And a little sour too</h3>
+    <a class="cta alt" href="#more-info">Read More</a>
+  </div>
+  <div class="group1"></div>
+</div>
+ */
