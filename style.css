@@ -7,8 +7,16 @@ body{
 }
 
 .h1{
+  margin: 14px ;
+
 
 }
+
+h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .h4{
   font-weight: bold;
   font-size: 20px;
@@ -16,29 +24,70 @@ body{
 }
 .wrapper{
   width: 960px;
-  margin: 0,auto;
+  margin: 0;
+  padding: 10px 10px;
 
 }
 .pandatart-banner{
   background-color:#f58664 ;
-  height: 50vh;
+  min-height: 85vh;
   padding: 0 20px;
+  color:#C40000;
+  box-sizing: border-box;
+  position: relative;
+  overflow:hidden;
+}
+.pandatart-banner h1{
+margin: 14px 0 0px;
+max-height: 100%;
+font-size: 65px;
+
+}
+
+.pandatart-banner h3{
+  margin: 0px 0 6px;
+  color: #49111C;
+
+
 }
 
 .pandatart-banner h4, .pandatart-banner h4 a {
   color: white;
+  margin: 0, 0, 35px;
 }
 
-.group1{
-
+.group1 img{
+background: url(img/pandatarts1) no-repeat 0 0;
+background-size:100%;
+position: absolute; top: 0px; right: 40px;
+margin-left: 20px;
+height: 600px;
+width: 600px;
 }
 
-a.cta, button.cta {
-
-a.cta.alt, button.cta.alt{
+a.cta,
+ button.cta {
+   font-size: 30px;
+   font-weight: bold;
+   color: #C40000;
+   background: #fef5ea;
+   display: inline-block;
+   border-radius: 50px;
+   padding: 3px 30px;
+   box-shadow:  0px 11px 0px rgba(0, 0, 0, 0.1);
+   text-decoration: none;
 
 }
+a.cta.alt,
+button.cta.alt{
+  color:#C40000;
+  border-radius: 50px;
+  box-shadow: 0px 11px 0px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  background-color: #f58664;
+  border: none;
 
+}
 
 
 /*
