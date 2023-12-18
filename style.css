@@ -3,13 +3,17 @@ body{
   font-family:"Comic Sans MS",  sans-serif;
   padding: 0;
   margin: 0;
+  background: #FFEBE5;
 
 }
 
 .h1{
   margin: 14px ;
+}
 
-
+h2{
+  font-weight: bold;
+  font-size: 58px;
 }
 
 h3{
@@ -22,8 +26,16 @@ h3{
   font-size: 20px;
 
 }
+
+p{
+  font-weight: bold;
+  font-size: 26px;
+  margin: 30px 188px;
+
+}
+
 .wrapper{
-  width: 960px;
+  width: 1244px;
   margin: 0;
   padding: 10px 10px;
 
@@ -57,7 +69,7 @@ font-size: 65px;
 }
 
 .group1 img{
-background: url(img/pandatarts1) no-repeat 0 0;
+background: url(img/pandatarts1.png) no-repeat 0 0;
 background-size:100%;
 position: absolute; top: 0px; right: 40px;
 margin-left: 20px;
@@ -89,15 +101,68 @@ button.cta.alt{
 
 }
 
+nav{
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  position:sticky;
+  top: 0;
+
+}
+
+nav .logo{
+  display: block;
+  width: 360px;
+  height: 210px;
+  position: absolute; top: 50%; left: 15px;
+  margin-top: -184px;
+  background: url(img/pandatartswords.png) no-repeat 0 0;
+  background-size:cover;
+  padding: 0;
+  overflow: hidden;
+  text-indent: -999px;
+
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 20px 0 0;
+
+}
+
+nav ul li{
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a{
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #49111C;
+  text-decoration: none;
+  padding: 35px 10px;
+  line-height: 30px;
+}
+
+.more-info{
+  text-align: center;
+
+}
+
+
+
 
 /*
-<div class="pandatart-banner">
-  <div class="wrapper">
-    <h4>Ruby presents</h4>
-    <h1>The Sweetest <br> Group in The <br> World!</h1>
-    <h3>And a little sour too</h3>
-    <a class="cta alt" href="#more-info">Read More</a>
-  </div>
-  <div class="group1"></div>
+<div class="more-info" id="more-info">
+<h2>Join Our Team</h2>
+<p>Every Saturday we have Strawberry day where we go out and help harvest <span class="highlight">strawberries</span> . You get to keep some for yourself too. Pretty cool right? </p>
+<button class="cta alt">Sign Me Up!</button>
 </div>
+
  */
