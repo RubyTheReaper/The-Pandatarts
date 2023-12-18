@@ -14,6 +14,7 @@ body{
 h2{
   font-weight: bold;
   font-size: 58px;
+  color: #C40000;
 }
 
 h3{
@@ -30,14 +31,14 @@ h3{
 p{
   font-weight: bold;
   font-size: 26px;
-  margin: 30px 188px;
+  margin: 30px 100px;
 
 }
 
 .wrapper{
   width: 1244px;
   margin: 0;
-  padding: 10px 10px;
+  padding: 10px 8px;
 
 }
 .pandatart-banner{
@@ -88,8 +89,15 @@ a.cta,
    padding: 3px 30px;
    box-shadow:  0px 11px 0px rgba(0, 0, 0, 0.1);
    text-decoration: none;
-
+   border: none;
+   cursor: pointer;
 }
+
+a.cta:active,
+ button.cta:active{
+   opacity: .7;
+ }
+
 a.cta.alt,
 button.cta.alt{
   color:#C40000;
@@ -98,6 +106,8 @@ button.cta.alt{
   text-decoration: none;
   background-color: #f58664;
   border: none;
+  margin: 30px;
+
 
 }
 
@@ -107,6 +117,7 @@ nav{
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
   position:sticky;
   top: 0;
+  z-index: 1;
 
 }
 
@@ -152,14 +163,15 @@ nav ul li a{
 
 .more-info{
   text-align: center;
+  border: 5px dashed #C40000;
 
 }
 
-more-info p{
+.more-info p{
   margin: 18px 0 40px;
 }
 
-more-info h2{
+.more-info h2{
   margin: 50px 0 0px;
 }
 .highlight{
@@ -171,13 +183,107 @@ more-info h2{
 
 }
 
+.story h3{
+  font-size: 40px;
+  font-weight: 800;
+}
+.pr-list{
+  width: 470px;
+  padding: 20px 20px 1px 20px;
+  box-sizing: border-box;
+  background-color:#F58664;
+  float: left;
+  margin: 0 20px 20px 50px;
+  position: relative;
+
+}
+
+.pr-list li{
+height: 70px;
+border-radius: 10px;
+font-size: 40px;
+color: #F58664;
+font-weight: bold;
+display: block;
+margin-bottom: 20px;
+padding: 6px 20px;
+box-sizing: border-box;
+}
+
+.pr-list li.red{background-color: #C40000;}
+.pr-list li.grey{background-color: rgba(0, 0, 0, .1 );}
+.pr-list li.brown{
+  background-color: #49111C;
+  color:#FFEBE5 }
+.pr-list li.peach{background-color: #F15143;}
+.pr-list li.yellow{background-color: #F8C785;}
+.pr-list li.white{background-color: white;}
+
+.pr-list li.drag{
+  position: absolute;
+  top: 92px;
+  left: 60px;
+  right: -23px;
+  transform: rotate(6deg);
+  box-shadow: 0 2px 14px rgba(0,0,0, .3);
+}
+
+.pr-list li.drag:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 50px;
+  background: url(img/paw.png) no-repeat 0 0;
+  background-size: 100%;
+  top: 35px;
+  bottom: -8px;
+  left: 60%;
+
+}
+
+.gang-img{
+  display: block;
+  margin: 0, auto;
+}
+
+footer{
+  text-align: center;
+  color: rgba(0, 0, 0, .4);
+  font-size: 20px;
+  margin: 85px 0 45px;
+  font-weight: bold;
+}
+
+footer a{
+  color: rgba(0,0,0, .4);
+
+}
+
+.popup{
+  display: none;
+}
+
+
+
+
 
 
 /*
-<div class="more-info" id="more-info">
-<h2>Join Our Team</h2>
-<p>Every Saturday we have Strawberry day where we go out and help harvest <span class="highlight">strawberries</span> . You get to keep some for yourself too. Pretty cool right? </p>
-<button class="cta alt">Sign Me Up!</button>
+<ul class="pr-list">
+  <li class="red">Fun</li>
+  <li class="brown">Gardening</li>
+  <li class="peach">Teamwork</li>
+  <li class="yellow">Networking</li>
+  <li class="white">Eating</li>
+</ul>
+<h3>Left: Our Priorities <br>
+Below: Our Story</h3>
+<p>Once upon a time, there was a little hungry panda. She wandered upon a strawberry farm. She tasted a berry and found that it was sour.</p>
+<p>Even though it was sour, she was starving. With no time to be picky, she chose and ate another berry. It was sweet this time. She ate until she was full, sometimes finding a sour berry, but that didn’t stop her.</p>
+<p>The farm owner found her sleeping in a circle of empty vines. Though the owner was upset, they found calm in the sight of the adorable sleeping panda. The owner took the panda in and cared for her. They fed her plenty fruits and vegetables and made her a little cabin to live in.</p>
+<p>The little panda vowed to help others see that they can continue, even when there is no hope. She founded the PandaTarts club and soon after two more panda came to join her. They went around helping animals and farmers see the light at the end of the tunnel. They became their hope and cheering mascots. </p>
+<p>Now they need more people! With your help, they can stretch their services farther and enrich more lives. You will gain adorable allies and a plethora of fruits and veggies. Not to mention valuable connections  with the growers of the world.</p>
 </div>
 
  */
